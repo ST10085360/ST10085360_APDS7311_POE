@@ -1,0 +1,47 @@
+<!-- <form (submit) = "onaddpost(addPost)" #addPost="ngForm">
+  <input type="text"
+  ngModel name="enteredID"
+  placeholder="Post ID"
+  required
+  minlength="1"
+  #enteredID="ngModel"/>
+  <input type="text"
+  ngModel name="enteredDescription"
+  placeholder="Post Description"
+  required
+  minlength="1"
+  #enteredDescription="ngModel"/>
+
+<button type="submit">Add Post</button>
+</form> -->
+<form (submit)="onaddpost(addPost)" #addPost="ngForm">
+  <div class="form-group">
+    <label for="enteredID">Post ID:</label>
+    <input
+      type="text"
+      ngModel
+      name="enteredID"
+      id="enteredID"
+      placeholder="Enter Post ID"
+      required
+      minlength="1"
+      #enteredID="ngModel"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="enteredDescription">Post Description:</label>
+    <textarea
+      type="text"
+      ngModel
+      name="enteredDescription"
+      id="enteredDescription"
+      placeholder="Enter Post Description"
+      required
+      minlength="1"
+      #enteredDescription="ngModel"
+    ></textarea>
+  </div>
+
+  <button type="submit">Add Post</button>
+</form>

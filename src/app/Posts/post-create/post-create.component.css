@@ -1,0 +1,37 @@
+/* Example styles, please adjust to match your theme */
+.form-group {
+  margin-bottom: 20px;
+
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: fit-content;
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff; /* Your button background color */
+  color: #fff; /* Your button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Your button background color on hover */
+}

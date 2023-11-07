@@ -1,0 +1,22 @@
+<h4>Please enter your credentials:</h4>
+<form (submit) = "onlogin(loginform)" #loginform="ngForm">
+  <div class="form-group">
+    <input type="text"
+    ngModel name="enteredusername"
+    placeholder="Username"
+    required
+    minlength="1"
+    #enteredusername="ngModel"/>
+  </div>
+  <br>
+  <div class="form-group">
+    <input type="password"
+    ngModel name="enteredpassword"
+    placeholder="Password"
+    required
+    minlength="1"
+    #enteredpassword="ngModel"/>
+  </div>
+
+<button type="submit">{{option}}</button>
+</form>

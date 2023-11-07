@@ -1,0 +1,64 @@
+/* Style for the post container */
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30vh; /* Adjust the gap as needed */
+  width: 80vh; /* Make sure it spans the width of the screen */
+  margin: auto;
+}
+
+
+ .post-box {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(55deg, #5011e2, #e83aff) 1 round;
+  text-align: left;
+  margin: 2vh;
+  border-radius: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.post-id {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 5vh;
+}
+
+
+.delete-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: lightcoral;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button:hover {
+  background-color: lightgray;
+}
+
+.material-icons.md-48 {
+  font-size: 28px;
+  color: aliceblue;
+}
+
+
+.post-description {
+  font-size: 1em;
+  text-align: left;
+  word-wrap: break-word;
+}

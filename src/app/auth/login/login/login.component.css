@@ -1,0 +1,38 @@
+/* Example styles, please adjust to match your theme */
+.form-group {
+  margin-bottom: 20px;
+
+}
+
+h4 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 30px;
+  text-wrap: wrap;
+  width: 120px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+button {
+  background-color: #007bff; /* Your button background color */
+  color: #fff; /* Your button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2vh;
+  align-self: center;
+  margin-left: 25%;
+}
+
+button:hover {
+  background-color: #0056b3; /* Your button background color on hover */
+}
